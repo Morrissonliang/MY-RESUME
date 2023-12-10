@@ -1,0 +1,108 @@
+<! DOCTYPE html>
+<html>
+<head>
+   <title>MY RESUME</title>
+<style>
+{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 89vh;
+    background-image:linear-gradient(rgba(0,0,0,0,65),rgba(0,0,0,0,65)),url(cover-1.avif);
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    width: 45%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex
+    align-items:center
+    justify-content: space-between:
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+footer
+    {
+        display: block;
+        color:white;
+        text-align:center;
+        padding: 20px;
+        background-color:darkseagreen;
+    }
+</style>
+</head>
+<body background="background10.jpeg" link="#000" alink="#017bf5" vlink="#000">
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+            <b>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="interest.html">INTEREST</a></li>
+            </b>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>MY RESUME</h1>
+            <p>MORRISSON MANCHA ANAK LIANG</p>
+        </div>
+    </div>
+    <div><footer>2023©Morrisson Mancha Anak Liang</footer></div>
+</body>
+</html>
